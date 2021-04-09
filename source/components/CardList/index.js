@@ -39,6 +39,7 @@ export const CardList = memo(
         stickyHeaderIndices={[0]}
         onEndReached={onEndReached}
         onEndReachedThreshold={0.01}
+        contentContainerStyle={styles.container}
       />
     );
   },

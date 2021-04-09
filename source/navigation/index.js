@@ -21,19 +21,23 @@ function LogoTitle() {
 
 const options = {
   headerTitle: props => <LogoTitle {...props} />,
+  headerLeft: null,
+  headerRight: null,
+  headerTitleAlign: 'center',
   headerStyle: {
     backgroundColor: Theme.COLORS.BACKGROUND,
     height: 220,
-    shadowOffset: { height: 0, width: 0 },
+    shadowColor: 'transparent',
   },
 };
 
 const detailsOptions = {
   headerStyle: {
     backgroundColor: Theme.COLORS.BACKGROUND,
-    shadowOffset: { height: 0, width: 0 },
+    shadowColor: 'transparent',
   },
   headerTintColor: Theme.COLORS.PRIMARY,
+  headerTitleAlign: 'center',
 };
 
 export const PilotsNav = () => {

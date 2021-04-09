@@ -5,5 +5,6 @@ export const styles = StyleSheet.create({
     width: '100%',
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
+    overflow: 'hidden'
   },
 });
