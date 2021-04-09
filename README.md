@@ -37,6 +37,13 @@ npx react-native run-ios
 npx react-native run-android
 ```
 
+## Libraries 📖
+
+* [Axios](https://www.npmjs.com/package/axios)
+* [React Navigation](https://reactnavigation.org/)
+* [React Native Splash Screen](https://github.com/crazycodeboy/react-native-splash-screen)
+* [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+
 ## Author ✒️
 
 * **Ezequiel Leanes** - *Development* - [kele-leanes](https://github.com/kele-leanes)
